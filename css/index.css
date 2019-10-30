@@ -1,0 +1,28 @@
+.top{
+    font-size: 2rem;
+}
+label,input{
+    margin: 1rem auto;
+}
+div{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+.a{
+    width: 200px;
+    border-radius: 1px;
+}
+select{
+    border-radius: 5px;
+    width: 12rem;
+}
+.h{
+    display:inline-block;
+    width: 20rem;
+    margin-bottom:5px;
+    
+}
+.hh{
+    width: 44.5rem;
+}

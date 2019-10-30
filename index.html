@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <center><p class="top">注册</p>
+    <form action="" class="box">
+        <label for="">账号：</label>
+        <input type="text" placeholder="请输入账号">
+        <span>（必填）</span><br>
+
+        <label for="">密码：</label>
+        <input type="password" placeholder="请输入密码">
+        <span>（必填）</span><br>
+
+        <label for="">性别：&nbsp;&nbsp;</label>
+        <label for="">保密&nbsp;&nbsp;</label>
+        <input type="radio" name="gender">
+        <label for="">男&nbsp;&nbsp;</label>
+        <input type="radio" name="gender">
+        <label for="">女&nbsp;</label>
+        <input type="radio" name="gender">
+        <span> &nbsp;&nbsp;&nbsp;（选填）</span><br>
+
+        <label for="">邮箱：</label>
+        <input type="email" placeholder="请输入邮箱地址">
+        <span>（选填）</span><br>
+
+        <label for="">电话：</label>
+        <input type="tel" placeholder="请输入联系电话">
+        <span>（选填）</span><br>
+
+        <select>
+            <option value="" disabled selected hidden>--请选择行业--</option>
+            <option value="0">网管</option>
+            <option value="1">IT</option>
+        </select><br>
+
+        <input type="text" placeholder="选择或输入您所在的城市：" list="citys">
+            <datalist id="citys">
+                <option value="北京">北京</option>
+                <option value="上海">上海</option>
+            </datalist><br>
+        
+        <textarea name="" id="" cols="60" rows="10" placeholder="请输入你的个性签名，不得少于120字"></textarea> <br>
+
+        <hr class="h"> <span> 兴趣爱好</span> <hr class="h"> <br>
+        <label for="">游泳</label>
+        <input type="checkbox">
+        <label for="">唱歌</label>
+        <input type="checkbox">
+        <label for="">摄影</label>
+        <input type="checkbox">
+        <label for="">运动</label>
+        <input type="checkbox">
+        <label for="">游戏</label>
+        <input type="checkbox">
+        <label for="">撸代码</label>
+        <input type="checkbox">
+        <hr class="hh">
+
+        <input type="submit" value="提交">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="button" value="退出">
+
+    </form>
+
+</center>
+   
+</body>
+</html>
